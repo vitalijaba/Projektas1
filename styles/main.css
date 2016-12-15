@@ -1,9 +1,89 @@
+
 body {
-    background-color: red;
+  font-family: Monserrat, Helvetica, Arial, sans-serif;
+  background-image: url("/images/foggyforest-min.png");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-size: 18px;
+  padding: 20px;
 }
 
-main-nav {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+.content {
+  background-color: rgba(255, 255, 255, 0.5);
+  border: 1px solid #bbb;
+  width: 100%;
+  padding: 20px;
+}
+
+/* IDEA: section main ž pagr. teksto blokas homepage. section into - quick links i gilesnius puslapius */
+.main, .intro {
+  border: 1px solid #bbb;
+  padding: 10px;
+}
+
+
+.first img {
+  float: left;
+  padding: 10px;
+}
+.secong img {
+  float: left;
+    padding: 10px;
+}
+
+h1, p {
+  text-align: center;
+}
+
+/* IDEA: menu */
+
+ul {
+  border: 1px solid #e7e7e7;
+  list-style-type: none;
+  color: gray;
+  overflow: hidden;
+  width: 100%;
+  /*background-color: #f3f3f3;*/
+}
+
+li {
+  float: left;
+  border-right: 1px solid #bbb;
+}
+
+li a {
+  color: #666;
+  display: block;
+  padding: 14px 16px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #d3d3d3;
+}
+
+li:last-child {
+  border-right: none;
+}
+.active {
+  background-color: #4CAF50;
+  color: white;
+}
+.content {
+  max-width: 50%;
+}
+
+footer {
+  /*background-color: rgba(255, 255, 255, 0.5);*/
+  font-size: 15px;
+  padding: 20px;
+  }
+
+@media (min-width:767 ) {
+.content {
+  background-color: #dcdcdc;
+}
 }
